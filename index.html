@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayrton's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/47804b25d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi there, I'm <span>Ayrton</span>!</h1>
+            <p>I'm a Software Developer based in Canada</p>
+        </div>
+    </div>
+</div>
+
+<!----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="profile">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-me-p">I'm a Software Developer, but I'm not just a developer. I am a problem solver, a team player, and a professional with a knack for working in diverse projects.
+                    In addition to technical proficiency, I bring creativity, adaptability, and strong communication skills.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web applications development</li>
+                        <li><span>App Development</span><br>Build Android/iOS apps</li>
+                        <li><span>UI/UX</span><br>Design of Web/App interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2016 - 2022</span><br>Production Manager at filmesimples Productions</li>
+                        <li><span>2018 - 2022</span><br>Professor and Researcher at Federal University of Mato Grosso</li>
+                        <li><span>2019 - 2022</span><br>Lecturer at UNIVAG University Center</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>LaSalle College Montreal</span><br>Information Technology Programmer-Analyst</li>
+                        <li><span>Federal University of Mato Grosso</span><br>Master's degree in Contemporary Culture</li>
+                        <li><span>Federal University of Mato Grosso</span><br>Bachelor's degree in Social Communication: Media Studies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <img src="images/c-sharp-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/java-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/js-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/html-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/css-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/python-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/swift-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/php-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/react-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/net-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/flutter-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/dart-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/mongodb-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/database-icon.png" class="prog-icon">
+            </div>
+            <div>
+                <img src="images/figma-icon.png" class="prog-icon">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------projects---------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Info Stream News App</h3>
+                    <p>A mobile application developed for Android smartphones using Firebase Real Time database.</p>
+                    <a href="https://github.com/ayrton-amaral/Android-News-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Property Rental Management System</h3>
+                    <p>A website developed in ASP.Net Core MVC and SQL database for a Property Rental Management System.</p>
+                    <a href="https://github.com/ayrton-amaral/ASP.Net-Core-MVC" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>OrderMaze Expedition Game</h3>
+                    <p>A game for kids using HTML, CSS, JavaScript, AJAX for Front-End, and MySQL and PHP for Back-End.</p>
+                    <a href="https://github.com/ayrton-amaral/PHP-Game-OrderMaze_Expedition" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Technology Institution Management System</h3>
+                    <p>A full application with Windows Form for Front-End and Back-End with C# and Microsoft SQL Server.</p>
+                    <a href="https://github.com/ayrton-amaral/Technology-Institution-Management-System" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+    
+            <div class="work">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3>Gas Station Management System</h3>
+                    <p>A Java-based sales management CRUD application for a gas station following Object-Oriented Programming concepts.</p>
+                    <a href="https://github.com/ayrton-amaral/Java-Gas-Station-Management-System" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+    
+            <div class="work">
+                <img src="images/work-6.png">
+                <div class="layer">
+                    <h3>Saint-Michel Technology Institution</h3>
+                    <p>A web application developed in ASP.Net MVC for an educational institution.</p>
+                    <a href="https://github.com/ayrton-amaral/ASP.Net-MVC-Web-Application" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/ayrton-amaral?tab=repositories" target="_blank" class="btn">See more projects</a>
+    </div>
+</div>
+
+<!----------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ayrton.amaral.ca@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/ayrton-amaral" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ayrton-amaral/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form id="contact-form">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    /*----------about----------*/
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    /*----------responsive menu----------*/
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+    /*----------contact form----------*/
+    const contactform = document.getElementById("contact-form");
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const formdata = new FormData(contactform);
+
+        try {
+            const response = await fetch("https://formspree.io/f/mrgnarrl", {
+                method: 'POST',
+                body: formdata,
+                headers: {
+                    'Accept': 'application/json'
+                },
+            });
+
+            if (response.ok) {
+                alert("Your message was sent successfully. Thank you for the contact!");
+            }
+            else {
+                throw new Error("Oops! Something went wrong.");
+            }
+        } catch (error) {
+            console.error("Form submission error: ", error);
+            alert("Oops! Something went wrong. Please try again.");
+        }
+    };
+
+    contactform.addEventListener('submit', handleSubmit);
+</script>
+
+</body>
+</html>
